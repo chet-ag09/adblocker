@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "Ad Blocker",
+    "version": "1.0",
+    "description": "Removes Google Ads banners from search results and websites and ads a 10x button under youtube vids to skip ads",
+    "permissions": ["scripting"],
+    "host_permissions": ["*://*/*", "https://www.youtube.com/*"],
+    "content_scripts": [
+      {
+        "matches": ["*://*/*"],
+        "js": ["content.js"]
+      }
+    ],
+    "icons": {
+      "128": "icon.png"
+    }
+  }
+  
