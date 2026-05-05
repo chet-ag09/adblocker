@@ -40,6 +40,7 @@ function speedUpAds() {
     if (video && video.src.includes("googlevideo")) {
         video.playbackRate = 10;
         video.muted = true;
+        video.volume = 0
     }
 }
 

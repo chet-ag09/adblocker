@@ -1,0 +1,22 @@
+#tenXButton /*styling the button to blend in with current yt ui*/
+{
+    margin: 10px 10px;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 40px;
+    width: 40px;
+}
+
+#tenXButton:active
+{
+    height: 42px;
+    width: 42px;
+}
+
+#tenXButton:hover
+{
+    background: rgba(171, 171, 171, 0.3);
+}
